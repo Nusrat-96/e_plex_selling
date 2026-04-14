@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efirm Clone - O2O Business Solutions</title>
+    <meta name="description" content="We transform your offline business into an online business. eCommerce consulting, web development, and digital marketing services.">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Raleway:wght@300;400;500;600;700&family=Epilogue:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header" id="siteHeader">
+        <div class="top-bar d-none d-lg-block">
+            <div class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="top-contact">
+                        <span><i class="bi bi-telephone-fill"></i> +880 1700 000000</span>
+                        <span><i class="bi bi-envelope-fill"></i> info@example.com</span>
+                        <span><i class="bi bi-clock-fill"></i> Sun - Thu: 9:00 - 18:00</span>
+                    </div>
+                    <div class="top-social">
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-twitter-x"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg main-navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <span class="brand-text">E<span class="brand-accent">firm</span></span>
+                    <small class="brand-tag">Business Solutions</small>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services-section">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Portfolio-section">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Pricing-section">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#About-section">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#Contact-section">Contact</a></li>
+                        <li class="nav-item ms-lg-3">
+                            <a class="btn btn-primary-custom" href="#Contact-section">Get a Quote</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero-section" id="home">
+        <div class="hero-bg-shape"></div>
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6 hero-content">
+                    <span class="hero-sub">Welcome to Efirm Solutions</span>
+                    <h1 class="hero-title">We Transform Your <span class="text-accent">Offline Business</span> Into An Online Business</h1>
+                    <p class="hero-desc">End-to-end O2O (Online-to-Offline) solutions that help local businesses grow through eCommerce consulting, custom web development, and result-driven digital marketing.</p>
+                    <div class="hero-cta">
+                        <a href="#services-section" class="btn btn-primary-custom">Our Services <i class="bi bi-arrow-right"></i></a>
+                        <a href="#Contact-section" class="btn btn-outline-custom">Contact Us</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>10<span>+</span></h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>500<span>+</span></h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>4.9<span>/5</span></h3>
+                            <p>Client Rating</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 hero-image-wrap">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=700&q=80" alt="Business Solutions" class="img-fluid rounded-4 shadow-lg">
+                        <div class="floating-card card-1">
+                            <i class="bi bi-graph-up-arrow"></i>
+                            <div>
+                                <strong>+35%</strong>
+                                <span>Sales Growth</span>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="bi bi-people-fill"></i>
+                            <div>
+                                <strong>500+</strong>
+                                <span>Clients</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section section-padding" id="services-section">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="section-sub">What We Offer</span>
+                <h2 class="section-title">Our Professional Services</h2>
+                <p class="section-desc">Complete digital transformation solutions tailored for every business size.</p>
+            </div>
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-bag-check-fill"></i></div>
+                        <h4>eCommerce Consulting</h4>
+                        <p>Strategic guidance to launch, scale, and optimize your online store with proven methodologies.</p>
+                        <a href="#Contact-section" class="service-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-code-slash"></i></div>
+                        <h4>Web Development</h4>
+                        <p>Custom, responsive websites and web apps built with modern stacks and clean, maintainable code.</p>
+                        <a href="#Contact-section" class="service-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-megaphone-fill"></i></div>
+                        <h4>Digital Marketing</h4>
+                        <p>Data-driven campaigns across social, search, and email that deliver measurable ROI.</p>
+                        <a href="#Contact-section" class="service-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-palette-fill"></i></div>
+                        <h4>Branding & Design</h4>
+                        <p>Logo design, brand identity, and creative assets that make your business memorable.</p>
+                        <a href="#Contact-section" class="service-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-search"></i></div>
+                        <h4>SEO Optimization</h4>
+                        <p>Rank higher on search engines with on-page, off-page, and technical SEO services.</p>
+                        <a href="#Contact-section" class="service-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon"><i class="bi bi-mortarboard-fill"></i></div>
+                        <h4>Training Programs</h4>
+                        <p>Hands-on workshops and courses in eCommerce, marketing, and web development.</p>
+                        <a href="#Contact-section" class="service-link">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-section section-padding" id="Portfolio-section">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="section-sub">Our Work</span>
+                <h2 class="section-title">Recent Portfolio</h2>
+                <p class="section-desc">A selection of our latest client projects and case studies.</p>
+            </div>
+            <div class="portfolio-filter text-center mb-4">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ecommerce">eCommerce</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="marketing">Marketing</button>
+            </div>
+            <div class="row g-4 portfolio-grid">
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-card">
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&q=80" alt="Project">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">eCommerce</span>
+                            <h5>Fashion Store Launch</h5>
+                            <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&q=80" alt="Project">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Web Design</span>
+                            <h5>Corporate Website</h5>
+                            <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="branding">
+                    <div class="portfolio-card">
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Project">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Branding</span>
+                            <h5>Cafe Brand Identity</h5>
+                            <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="marketing">
+                    <div class="portfolio-card">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Project">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Marketing</span>
+                            <h5>Social Media Campaign</h5>
+                            <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="ecommerce">
+                    <div class="portfolio-card">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80" alt="Project">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">eCommerce</span>
+                            <h5>Food Delivery Store</h5>
+                            <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+                    <div class="portfolio-card">
+                        <img src="https://images.unsplash.com/photo-1559028012-481c04fa702d?w=600&q=80" alt="Project">
+                        <div class="portfolio-overlay">
+                            <span class="portfolio-tag">Web Design</span>
+                            <h5>Agency Landing Page</h5>
+                            <a href="#" class="portfolio-link"><i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing-section section-padding" id="Pricing-section">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="section-sub">Pricing Plans</span>
+                <h2 class="section-title">Choose Your Best Plan</h2>
+                <p class="section-desc">Flexible pricing options tailored to fit businesses of every size.</p>
+            </div>
+            <div class="row g-4 justify-content-center mt-3">
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-head">
+                            <span class="plan-name">Starter</span>
+                            <div class="plan-price"><sup>$</sup>299<small>/one-time</small></div>
+                            <p>Perfect for small businesses getting started online.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check-circle-fill"></i> 5-page responsive website</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Basic SEO setup</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Contact form integration</li>
+                            <li><i class="bi bi-check-circle-fill"></i> 1 month support</li>
+                            <li class="disabled"><i class="bi bi-x-circle"></i> eCommerce features</li>
+                            <li class="disabled"><i class="bi bi-x-circle"></i> Marketing campaigns</li>
+                        </ul>
+                        <a href="#Contact-section" class="btn btn-outline-custom w-100 justify-content-center">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card featured">
+                        <span class="featured-badge">Most Popular</span>
+                        <div class="pricing-head">
+                            <span class="plan-name">Business</span>
+                            <div class="plan-price"><sup>$</sup>799<small>/one-time</small></div>
+                            <p>Best for growing businesses ready to scale online.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check-circle-fill"></i> 15-page custom website</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Full eCommerce setup</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Advanced SEO & analytics</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Payment gateway integration</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Social media setup</li>
+                            <li><i class="bi bi-check-circle-fill"></i> 3 months support</li>
+                        </ul>
+                        <a href="#Contact-section" class="btn btn-primary-custom w-100 justify-content-center">Get Started</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-head">
+                            <span class="plan-name">Enterprise</span>
+                            <div class="plan-price"><sup>$</sup>1999<small>/one-time</small></div>
+                            <p>Complete solution for large businesses and enterprises.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="bi bi-check-circle-fill"></i> Unlimited pages</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Custom web application</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Enterprise SEO package</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Digital marketing campaigns</li>
+                            <li><i class="bi bi-check-circle-fill"></i> Dedicated account manager</li>
+                            <li><i class="bi bi-check-circle-fill"></i> 12 months support</li>
+                        </ul>
+                        <a href="#Contact-section" class="btn btn-outline-custom w-100 justify-content-center">Get Started</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section section-padding" id="About-section">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <div class="about-image-wrap">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=700&q=80" alt="About Us" class="img-fluid rounded-4 main-img">
+                        <img src="https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=400&q=80" alt="Team" class="img-fluid rounded-4 secondary-img d-none d-md-block">
+                        <div class="experience-badge">
+                            <strong>10+</strong>
+                            <span>Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <span class="section-sub">About Our Company</span>
+                    <h2 class="section-title">A Trusted Partner For Your Digital Transformation</h2>
+                    <p class="about-lead">Established in 2015, we have helped hundreds of businesses embrace the digital era with tailored, scalable solutions.</p>
+                    <p class="about-text">Our team of strategists, designers, and developers combines deep industry experience with a passion for innovation. We deliver solutions that drive growth.</p>
+                    <ul class="about-list">
+                        <li><i class="bi bi-check-circle-fill"></i> Certified expert consultants</li>
+                        <li><i class="bi bi-check-circle-fill"></i> End-to-end project delivery</li>
+                        <li><i class="bi bi-check-circle-fill"></i> 24/7 dedicated support</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Affordable pricing plans</li>
+                    </ul>
+                    <a href="pages/about.html" class="btn btn-primary-custom mt-3">Learn More <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-8">
+                    <h2>Ready to Take Your Business Online?</h2>
+                    <p>Talk to our experts and get a free consultation today.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="pages/contact.html" class="btn btn-light-custom">Get Free Consultation <i class="bi bi-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section section-padding" id="testimonials-section">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="section-sub">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-desc">Trusted by hundreds of businesses across Bangladesh and beyond.</p>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="testimonial-card">
+                                    <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                    <p>"The team delivered our online store faster than expected. Professional, responsive, and truly understand eCommerce."</p>
+                                    <div class="client">
+                                        <img src="https://i.pravatar.cc/80?img=11" alt="Client">
+                                        <div>
+                                            <h6>Rahim Ahmed</h6>
+                                            <small>CEO, Local Retail</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="testimonial-card">
+                                    <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                    <p>"Their digital marketing strategy tripled our leads in three months. Highly recommended for any growing company."</p>
+                                    <div class="client">
+                                        <img src="https://i.pravatar.cc/80?img=32" alt="Client">
+                                        <div>
+                                            <h6>Sadia Khan</h6>
+                                            <small>Founder, Fashion Hub</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="testimonial-card">
+                                    <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                    <p>"Excellent training program. The hands-on approach gave our team real skills they can apply immediately."</p>
+                                    <div class="client">
+                                        <img src="https://i.pravatar.cc/80?img=15" alt="Client">
+                                        <div>
+                                            <h6>Kamal Hossain</h6>
+                                            <small>Manager, Tech Co.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-6 col-lg-4">
+                                <div class="testimonial-card">
+                                    <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                    <p>"From concept to launch, every step was handled with care. Our brand has never looked better."</p>
+                                    <div class="client">
+                                        <img src="https://i.pravatar.cc/80?img=20" alt="Client">
+                                        <div>
+                                            <h6>Nadia Islam</h6>
+                                            <small>Owner, Boutique</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="testimonial-card">
+                                    <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                    <p>"Smart, creative, reliable. Their SEO work doubled our organic traffic in six months."</p>
+                                    <div class="client">
+                                        <img src="https://i.pravatar.cc/80?img=52" alt="Client">
+                                        <div>
+                                            <h6>Arif Rahman</h6>
+                                            <small>MD, Export House</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4">
+                                <div class="testimonial-card">
+                                    <div class="stars"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></div>
+                                    <p>"A partner you can trust. They genuinely care about your success and deliver on every promise."</p>
+                                    <div class="client">
+                                        <img src="https://i.pravatar.cc/80?img=45" alt="Client">
+                                        <div>
+                                            <h6>Farhana Begum</h6>
+                                            <small>Director, Foods Ltd.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section section-padding" id="blog">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="section-sub">Latest Articles</span>
+                <h2 class="section-title">News & Insights</h2>
+                <p class="section-desc">Stay updated with the latest trends in eCommerce, marketing, and technology.</p>
+            </div>
+            <div class="row g-4 mt-3">
+                <div class="col-md-6 col-lg-4">
+                    <article class="blog-card">
+                        <div class="blog-thumb">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80" alt="Blog post">
+                            <span class="blog-date"><strong>12</strong>Apr</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i class="bi bi-person-fill"></i> Admin</span>
+                                <span><i class="bi bi-chat-fill"></i> 5 Comments</span>
+                            </div>
+                            <h5><a href="pages/blog-single.html">How to Launch a Profitable eCommerce Store in 2026</a></h5>
+                            <a href="pages/blog-single.html" class="blog-link">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <article class="blog-card">
+                        <div class="blog-thumb">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80" alt="Blog post">
+                            <span class="blog-date"><strong>08</strong>Apr</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i class="bi bi-person-fill"></i> Admin</span>
+                                <span><i class="bi bi-chat-fill"></i> 3 Comments</span>
+                            </div>
+                            <h5><a href="pages/blog-single.html">Digital Marketing Strategies That Actually Work</a></h5>
+                            <a href="pages/blog-single.html" class="blog-link">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <article class="blog-card">
+                        <div class="blog-thumb">
+                            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&q=80" alt="Blog post">
+                            <span class="blog-date"><strong>02</strong>Apr</span>
+                        </div>
+                        <div class="blog-body">
+                            <div class="blog-meta">
+                                <span><i class="bi bi-person-fill"></i> Admin</span>
+                                <span><i class="bi bi-chat-fill"></i> 8 Comments</span>
+                            </div>
+                            <h5><a href="pages/blog-single.html">Why Branding Matters More Than Ever for Small Businesses</a></h5>
+                            <a href="pages/blog-single.html" class="blog-link">Read More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section section-padding" id="Contact-section">
+        <div class="container">
+            <div class="section-head text-center">
+                <span class="section-sub">Get In Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-desc">Have a project in mind? Let's discuss how we can help your business grow.</p>
+            </div>
+            <div class="row g-4 mb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact-info-card">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <h5>Our Office</h5>
+                        <p>Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact-info-card">
+                        <i class="bi bi-telephone-fill"></i>
+                        <h5>Phone Number</h5>
+                        <p>+880 1700 000000</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact-info-card">
+                        <i class="bi bi-envelope-fill"></i>
+                        <h5>Email Address</h5>
+                        <p>info@example.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-4 align-items-stretch">
+                <div class="col-lg-7">
+                    <div class="contact-form-box">
+                        <h4 class="mb-4">Send us a message</h4>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" class="form-control" placeholder="Your Email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="tel" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary-custom">Send Message <i class="bi bi-send-fill"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="contact-map h-100">
+                        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=90.3563%2C23.7104%2C90.4563%2C23.8104&layer=mapnik" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4 py-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-widget">
+                        <a href="index.html" class="footer-brand">E<span>firm</span></a>
+                        <p>We help businesses thrive in the digital age by delivering O2O solutions — from strategy to execution.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-twitter-x"></i></a>
+                            <a href="#"><i class="bi bi-linkedin"></i></a>
+                            <a href="#"><i class="bi bi-youtube"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pages/about.html">About Us</a></li>
+                            <li><a href="pages/services.html">Services</a></li>
+                            <li><a href="pages/blog.html">Blog</a></li>
+                            <li><a href="pages/contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Our Services</h5>
+                        <ul class="footer-links">
+                            <li><a href="pages/services.html">eCommerce Consulting</a></li>
+                            <li><a href="pages/services.html">Web Development</a></li>
+                            <li><a href="pages/services.html">Digital Marketing</a></li>
+                            <li><a href="pages/services.html">Branding & Design</a></li>
+                            <li><a href="pages/training.html">Training Programs</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h5>Contact Info</h5>
+                        <ul class="footer-contact">
+                            <li><i class="bi bi-geo-alt-fill"></i> Dhaka, Bangladesh</li>
+                            <li><i class="bi bi-telephone-fill"></i> +880 1700 000000</li>
+                            <li><i class="bi bi-envelope-fill"></i> info@example.com</li>
+                            <li><i class="bi bi-clock-fill"></i> Sun - Thu: 9am - 6pm</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0">&copy; 2026 Efirm Clone. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="bi bi-chevron-up"></i></a>
+    <a href="https://wa.me/8801700000000" class="whatsapp-float" target="_blank" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

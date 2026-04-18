@@ -158,25 +158,12 @@ img { max-width: 100%; height: auto; }
     padding: 18px 0;
     border-bottom: 1px solid var(--border);
 }
-.navbar-brand {
-    display: flex;
-    flex-direction: column;
-    line-height: 1;
-}
-.brand-text {
-    font-family: var(--font-heading);
-    font-size: 32px;
-    font-weight: 700;
-    color: var(--dark);
-}
-.brand-accent { color: var(--secondary); }
-.brand-tag {
-    font-family: var(--font-ui);
-    font-size: 11px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-top: 4px;
+.navbar-brand { padding: 4px 0; }
+.navbar-logo {
+    height: 60px;
+    width: auto;
+    display: block;
+    object-fit: contain;
 }
 .navbar-nav .nav-link {
     font-family: var(--font-ui);
